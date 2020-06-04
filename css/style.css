@@ -1,0 +1,19 @@
+:root {
+  --color-primary: #15161D;
+  --color-secundary: #1E1F29;
+  --color-thirdy: #D10024;
+}
+
+header .contact {
+  background-color: var(--color-secundary);
+  color: white;
+}
+header .header {
+  background-color: var(--color-primary);
+  color: white;
+}
+
+.contact > div i {
+  color: var(--color-thirdy);
+  padding-right: 5px;
+}
