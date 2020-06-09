@@ -8,23 +8,73 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <header>
+  <header class="container-fluid">
     <div class="row contact">
-      <div class="row col">
-        <div class="col"><i class="fas fa-phone"></i>Tel</div>
-        <div class="col"><i class="fas fa-envelope"></i>Email</div>
-        <div class="col"><i class="fas fa-map-marker-alt"></i>local</div>
-      </div>
-      <div class="row col">
-        <div class="col"><i class="fas fa-user"></i>minha conta</div>
-      </div>
+        <div class="d-flex justify-content-center align-items-center col-2"><i class="fas fa-phone"></i>(19) 3561-1543</div>
+        <div class="d-flex justify-content-center align-items-center col-2"><i class="fas fa-envelope"></i>marketing@fatece.edu.br</div>
+        <div class="d-flex justify-content-center align-items-center col-4"><i class="fas fa-map-marker-alt"></i>Av. Painguás, 225/243 - Jardim Urupes, Pirassununga - SP</div>
+        <div class="d-flex justify-content-center align-items-center col-4"><i class="fas fa-user"></i>Minha Conta</div>
     </div>
     <div class="row header">
-      <div class="col-4">logo</div>
-      <div class="col-4">busca</div>
-      <div class="col-4">icone</div>
+      <div class="d-flex flex-row justify-content-center align-items-center col-4"><img src="img/Logo_Bibliodeca.png" alt="Logo Bibliodeca" class="logo"></div>
+      <div class="d-flex flex-row justify-content-center align-items-center col-4">
+        <div class="search-container"><input type="text" id="search-input" placeholder="O que você procura?"><input type="button" value="Buscar" id="search-botton"></div>
+      </div>
+      <div class="d-flex flex-row justify-content-center align-items-center col-4">
+        <div class="d-flex flex-column justify-content-center align-items-center col shopping-cart">
+          <i class="far fa-heart">
+            <span class="badge rounded-circle">0</span>
+          </i>
+          <div>Lista</div>
+        </div>
+        <div class="d-flex flex-column justify-content-center align-items-center col shopping-cart">
+          <i class="fas fa-shopping-cart">
+            <span class="badge rounded-circle">0</span>
+          </i>
+          <div>Carrinho</div>
+        </div>
+      </div>
     </div>
   </header>
+  <nav class="container-fluid d-flex justify-content-center align-items-center">
+    <div class="dropdown col">
+      <button class="btn dropdown-toggle text-uppercase font-weight-bold text-dark" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Categorias
+      </button>
+      <div class="dropdown-menu">
+        <a class="dropdown-item text-dark text-uppercase" href="#">Livros</a>
+        <a class="dropdown-item text-dark text-uppercase" href="#">e-books</a>
+        <a class="dropdown-item text-dark text-uppercase" href="#">Games</a>
+        <a class="dropdown-item text-dark text-uppercase" href="#">Filmes</a>
+        <a class="dropdown-item text-dark text-uppercase" href="#">Músicas</a>
+        <a class="dropdown-item text-dark text-uppercase" href="#">Papelarias</a>
+        <a class="dropdown-item text-dark text-uppercase font-weight-bold" href="#">Ver todos</a>
+      </div>
+    </div>
+    <a href="index.html" class="col text-decoration-none text-uppercase font-weight-bold text-dark">Início</a>
+    <a href="#" class="col text-decoration-none text-uppercase font-weight-bold text-dark">Ofertas</a>
+    <a href="#" class="col text-decoration-none text-uppercase font-weight-bold text-dark">Geeks</a>
+    <a href="#" class="col text-decoration-none text-uppercase font-weight-bold text-dark">Voltas às aulas</a>
+  </nav>
+  <main class="container-fluid">
+    Conteúdo
+  </main>
+  <footer>
+    <div class="col payment d-flex flex-column justify-content-center align-items-center">
+      <span>Formas de pagamento</span>
+      <div class="payment-img d-flex justify-content-between">
+        <img src="img/Visa.png" alt="VISA">
+        <img src="img/Mastecard.png" alt="Mastecard">
+        <img src="img/Barcode.png" alt="Boleto">
+      </div>
+    </div>
+    <div class="col about d-flex align-items-center">
+      <div class="col-4">
+        <span>Sobre</span>
+        <p>Projeto WEB referente à disciplina Desenvolvimento WEB aplicado pela Professora Ana P. dos Santos Braatz Viera. <br>Angelo<br>Gustavo<br>Sidnei</p>
+      </div>
+    </div>
+  </footer>
   <!-- Bootstrap -->
   <script src="fonts/bootstrap/jquery.min.js"></script>
   <script src="fonts/bootstrap/popper.min.js"></script>

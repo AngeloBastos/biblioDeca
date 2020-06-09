@@ -4,16 +4,95 @@
   --color-thirdy: #D10024;
 }
 
-header .contact {
+header > .contact {
   background-color: var(--color-secundary);
   color: white;
-}
-header .header {
-  background-color: var(--color-primary);
-  color: white;
+  height: 29px;
+  font-size: 9pt;
 }
 
-.contact > div i {
+header > .contact > div i {
   color: var(--color-thirdy);
   padding-right: 5px;
+}
+
+header > .header {
+  height: 72px;
+  color: white;
+  background-color: var(--color-primary);
+  border-bottom: solid 4px var(--color-thirdy);
+}
+
+header > .header > div > .logo {
+  height: 41.25px;
+}
+
+header > .header > div > .search-container > #search-input {
+  width: 339.2px;
+  height: 28px;
+  border: none;
+  border-radius: 15px 0 0 15px;
+  padding: 4px;
+  padding-left: 15px;
+}
+header > .header > div > .search-container > #search-botton {
+  width: 75.73px;
+  height: 28px;
+  border: none;
+  background-color: var(--color-thirdy);
+  color: white;
+  text-align: center;
+  border-radius: 0 15px 15px 0;
+}
+
+header > .header > div > .shopping-cart > i {
+  position: relative;
+}
+header > .header > div > .shopping-cart > i > span {
+  background-color: var(--color-thirdy);
+  position: absolute;
+  font-size: 8pt;
+  top: -10px;
+  right: -15px;
+}
+
+header > .header > div > .shopping-cart > div {
+  font-size: 10pt;
+}
+
+nav {
+  height: 44px;
+  border-bottom: solid 1px #15161D11;
+}
+
+footer > .payment {
+  height: 60px;
+  background-color: var(--color-secundary);
+  border-top: solid 4px var(--color-thirdy);
+}
+
+footer > .payment > span {
+  color: white;
+  font-size: 12pt;
+}
+
+footer > .payment > .payment-img {
+  width: 226px;
+}
+
+footer > .about {
+  height: 135px;
+  background-color: var(--color-primary);
+}
+
+footer > .about > div > span {
+  color: white;
+  font-size: 13pt;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+footer > .about > div > p {
+  color: white;
+  font-size: 9pt;
 }
