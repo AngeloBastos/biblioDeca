@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>BiblioDeca</title>
+  <link rel="icon" href="img/favicons.png"/>
+  <link rel="stylesheet" href="fonts/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+  <header class="container-fluid">
+    <div class="row contact">
+        <div class="d-flex justify-content-center align-items-center col-2"><i class="fas fa-phone"></i>(19) 3561-1543</div>
+        <div class="d-flex justify-content-center align-items-center col-2"><i class="fas fa-envelope"></i>marketing@fatece.edu.br</div>
+        <div class="d-flex justify-content-center align-items-center col-4"><i class="fas fa-map-marker-alt"></i>Av. Painguás, 225/243 - Jardim Urupes, Pirassununga - SP</div>
+        <div href="login.html" class="col-4 d-flex justify-content-center align-items-center text-decoration-none">
+          <a href="login.html" class="text-decoration-none"><i class="fas fa-user"></i>Minha Conta</a>
+        </div>
+    </div>
+    <div class="row header">
+      <div class="d-flex flex-row justify-content-center align-items-center col-4"><img src="img/Logo_Bibliodeca.png" alt="Logo Bibliodeca" class="logo"></div>
+      <div class="d-flex flex-row justify-content-center align-items-center col-4">
+        <div class="search-container"><input type="text" id="search-input" placeholder="O que você procura?"><input type="button" value="Buscar" id="search-botton"></div>
+      </div>
+      <div class="d-flex flex-row justify-content-center align-items-center col-4">
+        <div class="d-flex flex-column justify-content-center align-items-center col favorite-list">
+          <a href="#" class="text-decoration-none d-flex flex-column justify-content-center align-items-center">
+            <i class="far fa-heart">
+              <span class="badge rounded-circle">0</span>
+            </i>
+            <div>Lista</div>
+          </a>
+        </div>
+        <div class="d-flex flex-column justify-content-center align-items-center col shopping-cart">
+          <a href="#" class="text-decoration-none d-flex flex-column justify-content-center align-items-center">
+            <i class="fas fa-shopping-cart">
+              <span class="badge rounded-circle">0</span>
+            </i>
+            <div>Carrinho</div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <nav class="container-fluid d-flex justify-content-center align-items-center">
+    <div class="dropdown col">
+      <button class="btn dropdown-toggle text-uppercase font-weight-bold text-dark" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Categorias
+      </button>
+      <div class="dropdown-menu">
+        <a class="dropdown-item text-dark text-uppercase" href="#">Livros</a>
+        <a class="dropdown-item text-dark text-uppercase" href="#">e-books</a>
+        <a class="dropdown-item text-dark text-uppercase" href="#">Games</a>
+        <a class="dropdown-item text-dark text-uppercase" href="#">Filmes</a>
+        <a class="dropdown-item text-dark text-uppercase" href="#">Músicas</a>
+        <a class="dropdown-item text-dark text-uppercase" href="#">Papelarias</a>
+        <a class="dropdown-item text-dark text-uppercase font-weight-bold" href="#">Ver todos</a>
+      </div>
+    </div>
+    <a href="index.html" class="col text-decoration-none text-uppercase font-weight-bold text-dark">Início</a>
+    <a href="#" class="col text-decoration-none text-uppercase font-weight-bold text-dark">Ofertas</a>
+    <a href="#" class="col text-decoration-none text-uppercase font-weight-bold text-dark">Geeks</a>
+    <a href="#" class="col text-decoration-none text-uppercase font-weight-bold text-dark">Voltas às aulas</a>
+  </nav>
+  <main class="container-fluid">
+    <a class="text-muted font-weight-bold" href="index.html">< Voltar à página anterior</a>
+    <div class="d-inline-flex justify-content-center align-items-center col">
+      <div class="card d-inline-flex">
+        <img src="https://s3.novatec.com.br/capas-ampliadas/capa-ampliada-9788575224779.jpg" class="card-img" alt="...">
+      </div>
+      <div class="card bg-white col">
+        <h3 class="title">Programação de Jogos Android - 2ª Edição</h3>
+        <h5 class="sub-title">Crie seu próprio game engine!</h5>
+        <h6 class="publisher">Editora: Novatec</h6>
+        <h6 class="author">Autor: Edgard B. Damiani</h6><hr>
+        <p class="text-success font-weight-bold">Em estoque</p>
+        <h2 class="text-danger font-weight-bold">R$ 109,00</h2>
+        <h6 class="font-weight-bold">3x de 36,30 s/juros</h6>
+        <button href="cart.html" class="btn w-50 rounded-pill bg-danger text-white font-weight-bold">Adicionar ao Carrinho</button>
+      </div>
+    </div>
+    <div class="font-weight-bold">
+      <h4>Descrição do livro:</h4>
+      <p>Você sempre quis criar um jogo para Android, mas não sabia por onde começar?</p>
+      <p>Então este livro pode ser a sua resposta! Voltado para o iniciante no mundo dos jogos, ele tem como objetivo auxiliar nos primeiros passos, mostrando:</p>
+      <p>Este é um livro denso, mas palatável para o iniciante; desafiante, mas recompensador – certamente, este livro não é para quem quer o “caminho fácil” ou apenas fórmulas mágicas! Estude, digite e teste todos os programas; faça todos os exercícios recomendados, discuta os desafios no fórum do livro, e certamente você estará pronto para dar o seu primeiro passo com segurança no mundo da programação de jogos.</p>
+      <!-- <ul>
+        <li>A estrutura básica de um aplicativo Android e seus componentes fundamentais</li>
+        <li>O que é, e a utilidade de criar o seu próprio game engine</li>
+        <li>O que é um jogo, tecnicamente falando, e como estruturá-lo em torno do loop de jogo</li>
+        <li>Como encapsular a infraestrutura básica de um jogo (imagens, entrada de dados, áudio e temporização)</li>
+        <li>Como estruturar o código do seu jogo em duas partes – o modelo de domínio e a camada audiovisual –, facilitando sua prototipação e a execução de testes</li>
+        <li>Como criar códigos reativos usando detecção de colisão e triggers</li>
+        <li>O que é um tileset e como criar os elementos visuais básicos (sprites, animações e texto) em torno dele</li>
+        <li>Como incluir efeitos sonoros e música de fundo</li>
+        <li>Como converter coordenadas de mundo para coordenadas de tela e vice-versa, usando essas informações para fazer o seu jogo caber em qualquer tela de dispositivo, bem como para criar uma interface de usuário básica</li>
+        <li>Como encapsular seu jogo em um aplicativo completo e publicá-lo no Google Play</li>
+      </ul> -->
+    </div>
+  </main>
+  <footer>
+    <div class="col payment d-flex flex-column justify-content-center align-items-center">
+      <span>Formas de pagamento</span>
+      <div class="payment-img d-flex justify-content-between">
+        <img src="img/Visa.png" alt="VISA">
+        <img src="img/Mastecard.png" alt="Mastecard">
+        <img src="img/Barcode.png" alt="Boleto">
+      </div>
+    </div>
+    <div class="col about d-flex align-items-center">
+      <div class="col-4">
+        <span>Sobre</span>
+        <p>Projeto WEB referente à disciplina Desenvolvimento WEB aplicado pela Professora Ana P. dos Santos Braatz Viera. <br>Angelo<br>Gustavo<br>Sidnei</p>
+      </div>
+    </div>
+  </footer>
+  <!-- Bootstrap -->
+  <script src="fonts/bootstrap/jquery.min.js"></script>
+  <script src="fonts/bootstrap/popper.min.js"></script>
+  <script src="fonts/bootstrap/bootstrap.min.js"></script>
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</body>
+</html>
