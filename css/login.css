@@ -1,0 +1,57 @@
+main > div {
+  height: 51.1vh;
+}
+
+main > div > div {
+  height: 75%;
+  background-color: #eeeeee;
+  border-radius: 2px;
+  width: 30%;
+  box-shadow: 1px 1px 3px rgba(0,0,0,.2);
+}
+
+main > div > div:first-child {
+  margin-right: 8px;
+}
+
+main > div > div > form {
+  width: 100%;
+}
+
+main > div > div > form > input[type="email"], input[type="password"] {
+  height: 45px;
+  width: 100%;
+  padding: 10px;
+  border: solid 1px rgba(0,0,0,.2);
+  margin-bottom: 16px;
+  font-weight: 500;
+  color: #495057;
+}
+
+main > div > div > form > input[type="password"] {
+  margin-bottom: 8px;
+}
+
+main > div > div > form > input[type="email"]::placeholder , input[type="password"]::placeholder {
+  font-weight: 500;
+  color: #495057;
+}
+
+main > div > div > form > a {
+  width: 100%;
+  font-size: 8pt;
+  text-align: end;
+  margin-bottom: 16px;
+}
+
+main > div > div > form > input[type="button"] {
+  border: none;
+  border-radius: 2px;
+  color: white;
+  font-weight: 500;
+  background-color: var(--color-thirdy);
+}
+
+main > div > div > div > p {
+  font-size: 8pt;
+}
