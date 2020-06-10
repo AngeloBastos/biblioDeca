@@ -94,7 +94,8 @@ footer > .about {
   background-color: var(--color-primary);
 }
 
-footer > .about > div > span {
+footer > .about > div > a {
+  text-decoration: none;
   color: white;
   font-size: 13pt;
   text-transform: uppercase;
