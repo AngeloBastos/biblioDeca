@@ -15,6 +15,9 @@ header > .contact > div i {
   color: var(--color-thirdy);
   padding-right: 5px;
 }
+header > .contact > div a {
+  color: white;
+}
 
 header > .header {
   height: 72px;
@@ -45,10 +48,15 @@ header > .header > div > .search-container > #search-botton {
   border-radius: 0 15px 15px 0;
 }
 
-header > .header > div > .shopping-cart > i {
+header > .header > div > .shopping-cart  a, .favorite-list a {
+  color: white;
+}
+
+header > .header > div > .shopping-cart i, .favorite-list i {
   position: relative;
 }
-header > .header > div > .shopping-cart > i > span {
+
+header > .header > div > .shopping-cart  i > span, .favorite-list i > span{
   background-color: var(--color-thirdy);
   position: absolute;
   font-size: 8pt;
@@ -56,7 +64,7 @@ header > .header > div > .shopping-cart > i > span {
   right: -15px;
 }
 
-header > .header > div > .shopping-cart > div {
+header > .header > div > .shopping-cart > a > div, .favorite-list > a > div {
   font-size: 10pt;
 }
 
