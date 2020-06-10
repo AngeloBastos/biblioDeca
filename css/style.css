@@ -65,6 +65,7 @@ nav {
   border-bottom: solid 1px #15161D11;
 }
 
+
 footer > .payment {
   height: 60px;
   background-color: var(--color-secundary);
@@ -95,4 +96,12 @@ footer > .about > div > span {
 footer > .about > div > p {
   color: white;
   font-size: 9pt;
+}
+
+#products > .col > .card > .card-body > .price {
+  color:  var(--color-thirdy);
+}
+#products > .col > .card > .card-body > a {
+  background-color: var(--color-primary);
+  color: white;
 }
